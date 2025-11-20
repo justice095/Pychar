@@ -1,0 +1,15 @@
+
+places = ["Tokyo", "Paris", "New York", "Dubai", "Switzerland"]
+print("Original list:", places)
+print("Alphabetical order:", sorted(places))
+print("Original list after sorted():", places)
+print("Reverse alphabetical order:", sorted(places, reverse=True))
+print("Original list after reverse sorted():", places)
+places.reverse()
+print("List after reverse():", places)
+places.reverse()
+print("List after reversing again:", places)
+places.sort()
+print("List after sort():", places)
+places.sort(reverse=True)
+print("List after sort():", places)
